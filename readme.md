@@ -10,14 +10,14 @@ No additional software required! Download and run.
 
 ### macOS (Apple Silicon)
 In your Terminal (zsh or bash shell)
-
-curl -L https://github.com/louiefab10/charcount/releases/download/v1.0.0/charcount
+```zsh
+curl -L https://github.com/louiefab10/charcount/releases/download/v1.0.0.1/charcount
 chmod +x charcount
 sudo mv charcount /usr/local/bin
-
+```
 ### Windows (64bit)
 
-1. Click on this link - https://github.com/louiefab10/charcount/releases/download/v1.0.0/charcount.exe
+1. Click on this link - https://github.com/louiefab10/charcount/releases/download/v1.0.0.1/charcount.exe
 
    This will automatically download the .exe file to your PC.
 
@@ -34,7 +34,14 @@ sudo mv charcount /usr/local/bin
 
 
 ## Verify installation
-On your terminal or command prompt, run charcount --version or charcount --help
+On your terminal or command prompt, run 
+```zsh
+charcount --version
 
+```
+or 
+```zsh
+charcount --help
+```
 
 
