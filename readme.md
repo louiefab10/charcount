@@ -5,33 +5,18 @@ A character counter CLI tool.
 ## Description
 CharCount was built as personal solution to count characters and words within a string. Built using .NET 8.
 
-## Installation
-No additional software required! Download and run.
+## 📦 Download & Install
 
-### macOS (Apple Silicon)
-In your Terminal (zsh or bash shell)
-```zsh
-curl -L https://github.com/louiefab10/charcount/releases/download/v1.0.0.1/charcount
-chmod +x charcount
-sudo mv charcount /usr/local/bin
-```
-### Windows (64bit)
+Download the latest version of **charcount** for your platform:
 
-1. Click on this link - https://github.com/louiefab10/charcount/releases/download/v1.0.0.1/charcount.exe
+- [Windows (x64)](https://github.com/louiefab10/charcount/archive/refs/tags/v1.0.0.1.zip)
+- [macOS (Apple Silicon)](https://github.com/louiefab10/charcount/archive/refs/tags/v1.0.0.1.tar.gz)
 
-   This will automatically download the .exe file to your PC.
+### 🛠 Installation Steps
 
-2. Create a folder C:\tools\ (or any folder preferred)
-3. Move the download executable file to said folder.
-4. Add to PATH:
-   5. Press Win + R or open Run, 
-   6. Type sysdm.cpl, press Enter
-   7. Click Environment Variables
-   8. Under User variables, select Path - > Edit
-   9. Click New -> Add (folder where the executable is)
-   10. Click Ok on all dialogs
-   11. Run charcount from anywhere in the command prompt window
-
+1. Download the archive for your OS
+2. Extract the contents
+3. (Optional) Move the executable to a directory in your `PATH` for global use
 
 ## Verify installation
 On your terminal or command prompt, run 
